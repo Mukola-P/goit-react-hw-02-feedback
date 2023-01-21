@@ -1,14 +1,8 @@
-import PropTypes from "prop-types";
-import { Title } from 'components/Section/Section.styled'
+import styled from "styled-components";
 
-export const Section = ({ title, children }) => (
-    <>
-        <Title>{title}</Title>
-            {children}
-    </>
-);
-
-Section.PropTypes = {
-    title: PropTypes.string.isRequired,
-    children:PropTypes.node.isRequired
-}
+export const Title = styled.h2`
+  font-size: 60 px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+`;

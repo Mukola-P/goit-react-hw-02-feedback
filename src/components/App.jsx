@@ -29,6 +29,7 @@ export class App extends Component {
     const total = good + neutral + bad;
     return total > 0 ? Math.round((100 / total) * good) : 0;
   };
+
   render() {
     const keys = Object.keys(this.state);
     const { good, neutral, bad } = this.state;
@@ -42,7 +43,7 @@ export class App extends Component {
           alignItems: 'center',
           fontSize: 30,
           color: '#010101',
-          backgroundColor: '#FFF0F5',
+          backgroundColor: '#4d9a64',
           maxWidth: '100 %',
           padding: '20px',
           margin: '0 auto',
@@ -72,3 +73,4 @@ export class App extends Component {
     );
   }
 };
+

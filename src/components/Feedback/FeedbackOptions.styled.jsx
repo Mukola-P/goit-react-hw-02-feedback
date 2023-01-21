@@ -16,12 +16,12 @@ export const FeedBackButton = styled.button`
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   color: #6e6373;
-  background-color: #d9ccde;
+  background-color: #ccdedc;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     transform: scale(1.15);
     color: #f8f5fa;
-    background-color: #decea9;
+    background-color: #e2562c;
   }
 `;
